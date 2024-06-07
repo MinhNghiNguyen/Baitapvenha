@@ -7,13 +7,13 @@
 </head>
 <body>
    <h1>About me</h1>
-    <img src="" alt="My avatar">
+    <img src="ava.jpg" alt="My avatar" width="200" height="200">
    <dl>
     <dt><b>Information</b></dt>
     <dd>Họ và tên: Nguyễn Minh Nghị</dd>
     <dd>Năm sinh: 2008</dd>
     <dd>Trường: THPT Lê Hồng Phong</dd>
-    <dd>Social media: <a href="https://www.facebook.com/bum.nguyen.79462">My facebook</a></dd>
+    <dd>Social media: <a href="https://www.facebook.com/bum.nguyen.79462"><img src="ava.jpg" ></a></dd>
    </dl>
    <dt><b>My hobby</b></dt>
    <ol>
@@ -25,15 +25,21 @@
     </ul>
     <li><b>Food</b></li>
     <ul>
-        <li>Bún đậu mắm tôm</li>
-        <li>Cơm tấm</li>
-        <li>Hủ tiếu mì</li>
+        <li style="color: darkslateblue;">Bún đậu mắm tôm</li>
+        <li style="color: blue;">Cơm tấm</li>
+        <li style ="color: tomato;">Hủ tiếu mì</li>
     </ul>
    </ol>
    <dt><b>Questions for me</b></dt>
    <form>
     <label for="question">Any question:3?</label><br>
     <input type="text">
+    <button>Submit</button>
    </form>
+   <p id="changecolor" onclick="clicked()">Click me to change color</p>
+   <script>
+    function clicked(){document.getElementById("changecolor").style.color= "red";}
+   </script>
+
 </body>
 </html>

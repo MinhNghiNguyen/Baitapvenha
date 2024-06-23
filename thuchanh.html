@@ -7,17 +7,17 @@
 </head>
 <body>
    <h1>About me</h1>
-    <img src="src/ava.jpg" alt="My avatar" width="200" height="200">
+    <img id="ava" src="src/ava.jpg" alt="My avatar" width="200" height="200">
    <dl>
     <dt><b>Information</b></dt>
-    <dd>Họ và tên: Nguyễn Minh Nghị</dd>
-    <dd>Năm sinh: 2008</dd>
-    <dd>Trường: THPT Lê Hồng Phong</dd>
-    <dd>Social media: <a href="https://www.facebook.com/bum.nguyen.79462"><img src="src/facebook.jpg" width="20" height="20" ></a></dd>
+    <dd class="info" idk ="nes">Họ và tên: Nguyễn Minh Nghị</dd>
+    <dd class="info" idk ="no">Năm sinh: 2008</dd>
+    <dd id="something" class="info canbechanged">Trường: THPT Lê Hồng Phong</dd>
+    <dd class="info canbechanged">Social media: <a href="https://www.facebook.com/bum.nguyen.79462"><img src="src/facebook.jpg" width="20" height="20" ></a></dd>
    </dl>
    <dt><b>My hobby</b></dt>
-   <ol>
-    <li><b>Games</b></li>
+   <ol class="game">
+    <li ><b>Games</b></li>
     <ul>
         <li><a href="https://playvalorant.com/en-us/">Valorant</a></li>
         <li><a href="https://www.minecraft.net/en-us">Minecraft</a></li>
@@ -25,8 +25,8 @@
     </ul>
     <li><b>Food</b></li>
     <ul>
-        <li style="color: darkslateblue;">Bún đậu mắm tôm</li>
-        <li style="color: blue;">Cơm tấm</li>
+        <li style="color: darkslateblue;" id="bun">Bún đậu mắm tôm <br>jidwjidwjidwddd</li>
+        <li style="color: blue;" id="tam">Cơm tấm</li>
         <li style ="color: tomato;">Hủ tiếu mì</li>
     </ul>
    </ol>
@@ -40,6 +40,6 @@
    <script>
     function clicked(){document.getElementById("changecolor").style.color= "red";}
    </script>
-
+    <link rel="stylesheet" href="test.css">
 </body>
 </html>

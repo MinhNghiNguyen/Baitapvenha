@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body>
+
+<h2>Fade in Overlay</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div class="product_storage" id="${product.name}">
+    <img class="production-image" src="data:image/png;base64,${product.image}" alt="${product.name}">
+    <p class="product_name">${product.name}</p>
+    <h4 class="production-price">${product.unit_price} ${product.price}</h4>
+    <p class="product_desc">${product.short_desc}</p>
+    <span class="production-sale"><p>${product.discount ? `-${product.discount}%` : `${product.tag}`}</p></span>
+    <div class="hove">
+      <button class="add_to_cart">Add to cart</button>
+      <a><span class="material-symbols-outlined">share</span>Share</a>
+      <a><span class="material-symbols-outlined">compare_arrows</span>Compare</a>
+      <span id="heart" class="material-symbols-outlined">favorite</span>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,25 +1,77 @@
+/* body{
+    background-image: url("https://i.pinimg.com/564x/4e/60/d2/4e60d212a0ba83ec845c8013d9a3f94b.jpg");
+    background-repeat: no-repeat;
 
-#something, button{
-    color: brown;
-    font-size: xx-large;
+} */
+h1 {
+  font-size: 4vw;
+    border: 1vw solid #B2BEB5;
+    background-color:#E2E5DE;
 }
 
+#aboutme {
+    display: grid;
+    grid-template-columns: 2;
+    justify-content: space-around;
+    margin: auto;
+    padding: 5%;
+    align-items: center;
 
-.info{
-    color: yellowgreen;
-    font-size: medium;
 }
-li.game{
-    font-size: xx-small
+#aboutme img{
+    border-radius: 100%;
+    grid-column: 2;
+}
+#infohead{
+    display: grid;
+    text-align: center;
+    align-items: center ;
+    font-size: 2vw;
+}
+#infostor{
+    font-size: 1.5vw;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
 
 }
-*{font-weight: 10000;}
-dd[idk^="n"]{
-    font-size: xx-small;
+
+.game{
+
+    font-size: 1.5vw;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
 }
-#ava{
-    margin-left: 100px;
-    padding: 100px;
-    border: saddlebrown;
-    border-style: solid;
+#hobby{
+    display: grid;
+    text-align: center;
+    align-items: center ;
+    font-size: 2vw;
+}
+#title{
+    text-align: center;
+    font-size: 2vw;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#stor1{
+    border: 1vw solid #B2BEB5;
+    background-color:#E2E5DE;
+    padding: 5%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+#stor2{
+    border: 1vw solid #B2BEB5;
+    background-color:#E2E5DE;
+    padding: 5%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
 }
